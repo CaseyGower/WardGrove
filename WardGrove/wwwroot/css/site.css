@@ -26,6 +26,10 @@
     margin: 15px
 }
 
+#header {
+    background-image : url("../images/banner2.svg")
+}
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */
