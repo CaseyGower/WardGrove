@@ -18,26 +18,21 @@
     </environment>
 </head>
 <body>
-<!--    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">WardGrove</a>
+        <div class="row">
+            <div class="col">
+                <img class="logoImage" src="../images/WGlogo.png">
+                <img class="headerImage" src="../images/Header.png">
             </div>
-            <div class="navbar-collapse collapse">
+        </div>
+
+            <div class="navbar-collapse collapse customNavBar">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>-->
+
     <div class="container-fluid body-content">
         @RenderBody()
         <hr />
