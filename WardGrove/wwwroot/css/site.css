@@ -33,6 +33,7 @@
 .navListItem {
     text-align: center;
     width: 20%;
+    padding: 1rem;
 }
 .navListItem > a{
     color: black;
@@ -80,7 +81,8 @@ p {
         height: 125px;
     }
     .treeNames h2 {
-        font-size: 3rem
+        font-size: 3rem;
+        margin-left: 0;
     }
 
     .sectionHeading h2 {
@@ -92,6 +94,12 @@ p {
     .otherSection h2 {
         padding-top: 2rem
     }
+    p{
+        font-size:1.5rem;
+    }
+    .contactRows{
+        font-size: 2rem;
+    }
 
 }
 
@@ -102,7 +110,7 @@ p {
     .treeNames h2 {
         font-size: 3rem
     }
-
+    
     .sectionHeading h2 {
         font-size: 5rem;
         padding-top: 4.5rem;
