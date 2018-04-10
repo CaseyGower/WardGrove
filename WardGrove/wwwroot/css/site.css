@@ -12,25 +12,62 @@
     left: 25%;
     top: 1rem;
 }
-.customNavBar{
-font-size:3rem;
+.headerText {
+    position: absolute;
+    z-index: 1;
+    left: 29%;
+    top: 25rem;
+    font-size: 5rem;
+    color: #a80015;
+}
+
+.customNavBar {
+    font-size: 3rem;
+    text-align: center;}
+.navUL {
+    width: 100%
+}
+
+.navListItem {
     text-align: center;
+    width: 20%;
+}
+.navListItem > a{
+    color: black;
 }
 .sectionHeading {
     background-color: #a80015;
     text-align: center;
     color: white;
-    height: 12rem
+    height: 15rem;
+
 }
-.sectionHeading h2{
-    font-size: 7rem;
-    padding-top: 2rem;
+.sectionHeading h2 {
+    font-size: 8rem;
+    padding-top: 3rem;
+    font-weight: 700;
 }
 .imageSizing{
     width: 100%;
 }
-.contactRows{
-    font-size: 2.5rem;
-    padding-top: 2rem;
-
+p {
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem
 }
+.priceTagImg {
+    width: 20%;
+    position: absolute;
+    left: 5%;
+    padding-top: 3rem;
+}
+.treeNames h2{
+    margin-left: 3rem;
+    font-size: 5rem;
+    text-align: center;
+}
+.contactRows {
+    font-size: 3rem;
+    padding-top: 2rem
+}
+
