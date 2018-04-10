@@ -4,6 +4,12 @@
 
 <!--Map-->
 <!--Initial Blurb / Image -->
+<div class="row">
+    <div class="col">
+        <div id="wardGrove">
+    </div>
+    </div>
+</div>
     <div class="row" id="home">
         <div class="col">
             <img class="imageSizing" src="~/images/SmallFamily.png" />
@@ -200,3 +206,17 @@
     </div>
 
 <!--Footer/Social-->
+<script>
+      function initMap() {
+        var wardGrove = {lat: 35.5455513, lng: -88.642475};
+        var map = new google.maps.Map(document.getElementById('wardGrove'), {
+          zoom: 15,
+          center: wardGrove
+        });
+
+      }
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjIxkvWvevwkxGuiNGChQwRu21_nIxMas&callback=initMap">
+</script>
