@@ -208,12 +208,17 @@
 <!--Footer/Social-->
 <script>
       function initMap() {
-        var wardGrove = {lat: 35.5455513, lng: -88.642475};
+    
+        var wardGrove = {lat: 35.545299, lng: -88.636786};
         var map = new google.maps.Map(document.getElementById('wardGrove'), {
           zoom: 15,
           center: wardGrove
         });
-
+        var latLong = new google.maps.LatLng(35.545547, -88.640287);
+    var Marker = new google.maps.Marker({
+    position:latLong, 
+    map:map
+    })
       }
 </script>
 
