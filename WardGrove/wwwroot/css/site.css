@@ -25,7 +25,10 @@
 
 .customNavBar {
     font-size: 3rem;
-    text-align: center;}
+    text-align: center;
+    background-color: white;
+    opacity: .8;
+    z-index: 1000;}
 .navUL {
     width: 100%
 }
@@ -75,6 +78,28 @@ p {
 }
 
 
+#wardGrove {
+    height: 600px;
+    width: 100%
+}
+
+/* Page content */
+.content {
+    padding: 16px
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+        padding-top: 60px
+    }
+
+
+/* Media Queries */
 
 @media (max-width: 600px) and (min-width: 300px){
     .headerImage {
@@ -132,9 +157,4 @@ p {
         font-weight: 700
     }
    
-}
-
-#wardGrove{
-    height: 600px;
-    width: 100%;
 }
