@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - WardGrove</title>
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.5/jquery.pagepiling.css" />
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -17,28 +17,29 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
-            <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
 <body>
-        <div class="row">
-            <div class="col">
-                <img class="logoImage" src="../images/WGlogo.png">
-                <img class="headerImage" src="../images/Header.png">
-<!--                <h3 class="headerText">Christmas Tree Farm</h3>
--->            </div>
+    <div class="row">
+        <div class="col">
+            <img class="logoImage" src="../images/WGlogo.png">
+            <img class="headerImage" src="../images/Header.png">
+            <!--                <h3 class="headerText">Christmas Tree Farm</h3>
+            -->
         </div>
+    </div>
 
-            <div class="customNavBar">
-                <ul class="nav navbar-nav navUL">
-                    <li class="navListItem"><a href="#home">Home</a></li>
-                    <li class="navListItem"><a href="#about">About</a></li>
-                    <li class="navListItem"><a href="#trees">Trees</a></li>
-                    <li class="navListItem"><a href="#other">Other</a></li>
-                    <li class="navListItem"><a href="#contact">Contact</a></li>
+    <div class="customNavBar">
+        <ul class="nav navbar-nav navUL">
+            <li class="navListItem"><a href="#home">Home</a></li>
+            <li class="navListItem"><a href="#about">About</a></li>
+            <li class="navListItem"><a href="#trees">Trees</a></li>
+            <li class="navListItem"><a href="#other">Other</a></li>
+            <li class="navListItem"><a href="#contact">Contact</a></li>
 
-                </ul>
-            </div>
+        </ul>
+    </div>
 
     <div class="container-fluid body-content">
         @RenderBody()
@@ -68,6 +69,13 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+
+    <!--Links for PagePiling-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.5/jquery.pagepiling.min.js"></script>
+
+
 
     @RenderSection("Scripts", required: false)
 </body>
