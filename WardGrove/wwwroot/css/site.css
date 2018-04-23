@@ -41,8 +41,10 @@
 .navListItem > a{
     color: black;
 }
-.mobileNavCSS{
-    
+.mobileNavCSS {
+    background-color: white;
+    font-size: 1.2rem;
+    opacity: .8
 }
 
 .sectionHeading {

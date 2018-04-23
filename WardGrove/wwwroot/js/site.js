@@ -7,12 +7,14 @@ var size = {
 }
 // Get the navbar
 var navbar = document.getElementById("navbar");
+var navContent = document.getElementById("nav-content")
 
 
- if (size <= 750) {
+ if (size.width <= 750) {
     navbar.classList.add("navbar-light");
     navbar.classList.add("mobileNavCSS");
     navbar.classList.remove("p-0");
+    navContent.classList.remove("customNavBar");
    } 
    else {
     navbar.classList.remove("navbar-light");
