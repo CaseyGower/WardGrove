@@ -1,26 +1,29 @@
 ﻿body {
-    font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif
 }
-.headerImage{
+
+.headerImage {
     width: 100%;
     z-index: auto;
     opacity: .7;
-    height:350px;
+    height: 350px
 }
+
 .logoImage {
     z-index: 2;
     width: 50%;
     position: absolute;
     left: 25%;
-    top: 1rem;
+    top: 1rem
 }
+
 .headerText {
     position: absolute;
     z-index: 1;
     left: 29%;
     top: 25rem;
     font-size: 5rem;
-    color: #a80015;
+    color: #a80015
 }
 
 .customNavBar {
@@ -28,7 +31,9 @@
     text-align: center;
     background-color: white;
     opacity: .8;
-    z-index: 1000;}
+    z-index: 1000
+}
+
 .navUL {
     width: 100%
 }
@@ -36,15 +41,17 @@
 .navListItem {
     text-align: center;
     width: 20%;
-    padding: 1rem;
+    padding: 1rem
 }
-.navListItem > a{
-    color: black;
-}
+
+    .navListItem > a {
+        color: black
+    }
+
 .mobileNavCSS {
     background-color: white;
     font-size: 1.2rem;
-    opacity: .8
+    opacity: .8
 }
 
 .sectionHeading {
@@ -52,32 +59,38 @@
     text-align: center;
     color: white;
     height: 15rem;
-    margin-top: 10rem
+    margin-top: 10rem
 }
-.sectionHeading h2 {
-    font-size: 8rem;
-    padding-top: 3rem;
-    font-weight: 700;
+
+    .sectionHeading h2 {
+        font-size: 8rem;
+        padding-top: 3rem;
+        font-weight: 700
+    }
+
+.imageSizing {
+    width: 100%
 }
-.imageSizing{
-    width: 100%;
-}
+
 p {
     font-size: 3rem;
     text-align: center;
-    padding: 3rem
+    padding: 3rem
 }
+
 .priceTagImg {
     width: 20%;
     position: absolute;
     left: 5%;
-    padding-top: 3rem;
+    padding-top: 3rem
 }
-.treeNames h2{
+
+.treeNames h2 {
     margin-left: 3rem;
     font-size: 5rem;
-    text-align: center;
+    text-align: center
 }
+
 .contactRows {
     font-size: 3rem;
     padding-top: 2rem
@@ -88,8 +101,9 @@ p {
     height: 600px;
     width: 100%
 }
-#home{
-    margin-top: 2rem;
+
+#home {
+    margin-top: 2rem
 }
 /* Page content */
 .content {
@@ -109,63 +123,68 @@ p {
 
 /* Media Queries */
 
-@media (max-width: 600px) and (min-width: 300px){
+@media (max-width: 600px) and (min-width: 300px) {
     .headerImage {
-        height: 125px;
+        height: 125px
     }
+
     .treeNames h2 {
         font-size: 3rem;
-        margin-left: 0;
+        margin-left: 0
     }
-    .sectionHeading{
+
+    .sectionHeading {
         height: 8rem;
-        margin-top: 5rem;
+        margin-top: 5rem
     }
-    .sectionHeading h2 {
-        font-size: 3rem;
-        padding-top: 2rem;
-        font-weight: 700;
-    }
+
+        .sectionHeading h2 {
+            font-size: 3rem;
+            padding-top: 2rem;
+            font-weight: 700
+        }
 
     .otherSection h2 {
-        padding-top: 2rem
-    }
-    p{
-        font-size:1.5rem;
-    }
-    .contactRows{
-        font-size: 2rem;
+        padding-top: 2rem
     }
 
+    p {
+        font-size: 1.5rem
+    }
+
+    .contactRows {
+        font-size: 2rem
+    }
 }
 
-@media (max-width: 800px) and (min-width: 601px){
+@media (max-width: 800px) and (min-width: 601px) {
     .headerImage {
-        height: 200px        
+        height: 200px
     }
+
     .treeNames h2 {
         font-size: 3rem
     }
-    
+
     .sectionHeading h2 {
         font-size: 5rem;
         padding-top: 4.5rem;
         font-weight: 700
     }
-
- 
 }
+
 @media (min-width:830px) and (max-width: 1024px) {
     .headerImage {
         height: 250px
     }
+
     .treeNames h2 {
-        font-size: 3rem;
+        font-size: 3rem
     }
+
     .sectionHeading h2 {
         font-size: 5rem;
         padding-top: 4.5rem;
         font-weight: 700
     }
-   
 }
