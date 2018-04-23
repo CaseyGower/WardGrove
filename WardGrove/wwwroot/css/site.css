@@ -104,7 +104,7 @@ p {
 }
 .treePrice h3 {
     text-align: center;
-    padding-top: .5rem;
+    padding-top: .3rem;
     font-size: 4.3rem;
     margin: 0;
     padding-bottom: 0;
@@ -176,6 +176,20 @@ p {
     .contactRows {
         font-size: 2rem
     }
+    .treePrice {
+        height: 5rem;
+        width: 5rem;
+        margin-top: 1rem
+    }
+
+        .treePrice h3 {
+            padding-top: .2rem;
+            font-size: 2.5rem
+        }
+
+        .treePrice h4 {
+            font-size: 1rem
+        }
 }
 
 @media (max-width: 800px) and (min-width: 601px) {
