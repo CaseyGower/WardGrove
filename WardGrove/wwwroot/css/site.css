@@ -194,7 +194,7 @@ p {
     }
 }
 
-@media (min-width:830px) and (max-width: 1024px) {
+@media (min-width:830px) {
     .headerImage {
         height: 250px
     }
@@ -207,5 +207,18 @@ p {
         font-size: 5rem;
         padding-top: 4.5rem;
         font-weight: 700
+    }
+    .treePrice {
+        height: 15rem;
+        width: 15rem;
+        margin-top: 6rem
+    }
+    .treePrice h3 {
+        padding-top: .5rem;
+        font-size: 8.3rem;
+    }
+
+    .treePrice h4 {
+        font-size: 2.5rem;
     }
 }
