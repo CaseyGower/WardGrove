@@ -41,13 +41,16 @@
 .navListItem > a{
     color: black;
 }
+.mobileNavCSS{
+    
+}
+
 .sectionHeading {
     background-color: #a80015;
     text-align: center;
     color: white;
     height: 15rem;
-    margin-top: 10rem;
-
+    margin-top: 10rem
 }
 .sectionHeading h2 {
     font-size: 8rem;
