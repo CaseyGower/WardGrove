@@ -88,7 +88,9 @@ p {
     height: 600px;
     width: 100%
 }
-
+#home{
+    margin-top: 2rem;
+}
 /* Page content */
 .content {
     padding: 16px
@@ -115,11 +117,14 @@ p {
         font-size: 3rem;
         margin-left: 0;
     }
-
+    .sectionHeading{
+        height: 8rem;
+        margin-top: 5rem;
+    }
     .sectionHeading h2 {
-        font-size: 5rem;
-        padding-top: 4.5rem;
-        font-weight: 700
+        font-size: 3rem;
+        padding-top: 2rem;
+        font-weight: 700;
     }
 
     .otherSection h2 {
