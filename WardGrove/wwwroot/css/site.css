@@ -126,6 +126,10 @@ p {
 #home {
     margin-top: 2rem
 }
+
+.footer{
+    font-size: 1.2rem;
+}
 /* Page content */
 .content {
     padding: 16px
@@ -231,8 +235,14 @@ p {
         padding-top: .5rem;
         font-size: 8.3rem;
     }
-
+    
     .treePrice h4 {
         font-size: 2.5rem;
+    }
+}
+@media (min-width: 1024px){
+    .logoImage{
+        width: 35%;
+        left: 35%;
     }
 }
